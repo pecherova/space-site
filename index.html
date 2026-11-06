@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Орбита — путеводитель по Солнечной системе</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Unbounded:wght@600;700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="Орбита — на главную">
+        <span class="logo__planet"></span>
+        <span class="logo__name">Орбита</span>
+      </a>
+      <input class="header__toggle" type="checkbox" id="menu-toggle">
+      <label class="header__burger" for="menu-toggle" aria-label="Открыть меню"></label>
+      <nav class="header__nav">
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link menu__link--active" href="index.html">Главная</a></li>
+          <li class="menu__item"><a class="menu__link" href="pages/planets.html">Планеты</a></li>
+          <li class="menu__item"><a class="menu__link" href="pages/gallery.html">Галерея</a></li>
+          <li class="menu__item"><a class="menu__link" href="pages/tasks.html">Задания</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Путеводитель по Солнечной системе</h1>
+          <p class="hero__lead">Солнце, восемь планет и Луна: из чего они состоят, чем отличаются друг от друга и что о них известно сегодня.</p>
+          <a class="button" href="pages/planets.html">Читать о планетах</a>
+        </div>
+        <div class="hero__planet">
+          <span class="logo__planet"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Разделы сайта</h2>
+        <p class="section__intro">Начните с рассказа о планетах, загляните в галерею или откройте учебные задания.</p>
+        <div class="cards">
+          <a class="card" href="pages/planets.html">
+            <div class="card__image card__image--earth" role="img" aria-label="Земля из космоса"></div>
+            <div class="card__body">
+              <h3 class="card__title">Планеты</h3>
+              <p class="card__text">Подробный рассказ о каждой планете, от Меркурия до Нептуна.</p>
+            </div>
+          </a>
+          <a class="card" href="pages/gallery.html">
+            <div class="card__image card__image--saturn" role="img" aria-label="Сатурн с кольцами"></div>
+            <div class="card__body">
+              <h3 class="card__title">Галерея</h3>
+              <p class="card__text">Все планеты на одной странице и короткий факт о каждой.</p>
+            </div>
+          </a>
+          <a class="card" href="pages/tasks.html">
+            <div class="card__image card__image--moon" role="img" aria-label="Луна"></div>
+            <div class="card__body">
+              <h3 class="card__title">Задания</h3>
+              <p class="card__text">Лабораторные работы и курсовая по вёрстке и прототипированию сайтов.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Наш дом в космосе</h2>
+        <p class="section__intro">Солнечная система образовалась около 4,6 миллиарда лет назад из облака газа и пыли. Большая часть вещества собралась в центре и стала Солнцем, а из остатков диска постепенно выросли планеты. Ближе к звезде было слишком жарко для льда, поэтому там появились небольшие каменные планеты: Меркурий, Венера, Земля и Марс. Дальше, где лёд не испарялся, сформировались газовые и ледяные гиганты. Ниже — видео Американского музея естественной истории: путешествие от Гималаев до края наблюдаемой Вселенной.</p>
+        <div class="video">
+          <iframe class="video__frame" src="https://www.youtube.com/embed/17jymDn0W6U" title="Видео «Известная Вселенная»" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy"></p>
+      <ul class="footer__menu">
+        <li><a class="footer__link" href="index.html">Главная</a></li>
+        <li><a class="footer__link" href="pages/planets.html">Планеты</a></li>
+        <li><a class="footer__link" href="pages/gallery.html">Галерея</a></li>
+        <li><a class="footer__link" href="pages/tasks.html">Задания</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

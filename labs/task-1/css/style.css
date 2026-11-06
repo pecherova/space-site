@@ -1,0 +1,38 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#header {
+    background: #333333;
+    color: #ffffff;
+    height: 80px;
+    padding: 10px;
+}
+
+#menu {
+    float: left;
+    width: 200px;
+    background: #eeeeee;
+    min-height: 300px;
+    padding: 10px;
+}
+
+#content {
+    float: left;
+    width: 740px;
+    padding: 20px;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    background: #333333;
+    color: #ffffff;
+    height: 60 px;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,200 @@
+.picture-frame {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(225deg, #ffffff 0%, #d94fc4 100%);
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 60%, #e8f2ff 0%, #8fb8ec 45%, #3a5a9c 100%);
+}
+
+.mushroom-big-cap {
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    width: 110px;
+    height: 55px;
+    background: radial-gradient(circle at 65% 30%, #ecd5cf 0%, #8a6560 55%, #5a3e38 100%);
+    border-radius: 50% 50% 0 0 / 90% 90% 0 0;
+}
+
+.mushroom-big-stem {
+    position: absolute;
+    left: 35px;
+    top: 90px;
+    width: 45px;
+    height: 90px;
+    background: #d9c4b8;
+    border-radius: 50%;
+    border: 3px solid #8a6560;
+}
+
+.mushroom-small {
+    position: absolute;
+    left: 78px;
+    top: 95px;
+    width: 68px;
+    height: 90px;
+    transform: rotate(20deg);
+}
+
+.mushroom-small-stem {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 32px;
+    height: 55px;
+    background: #d9c4b8;
+    border-radius: 50%;
+    border: 3px solid #8a6560;
+}
+
+.mushroom-small-cap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 68px;
+    height: 33px;
+    background: radial-gradient(circle at 65% 25%, #ecd5cf 0%, #8a6560 55%, #5a3e38 100%);
+    border-radius: 50% 50% 0 0 / 90% 90% 0 0;
+}
+
+.grass {
+    position: absolute;
+    left: 0px;
+    top: 135px;
+    width: 200px;
+    height: 70px;
+    background: repeating-linear-gradient(
+        135deg,
+        #6bbf3f 0px, #6bbf3f 9px,
+        #1f4a14 9px, #1f4a14 10px,
+        #3f8f2a 10px, #3f8f2a 18px,
+        #1f4a14 18px, #1f4a14 19px
+    );
+    clip-path: polygon(
+        0% 55%, 12.5% 0%, 25% 55%, 37.5% 0%, 50% 55%,
+        62.5% 0%, 75% 55%, 87.5% 0%, 100% 55%,
+        100% 100%, 0% 100%
+    );
+}
+
+.cloud {
+    position: absolute;
+    left: 35px;
+    top: 12px;
+    width: 110px;
+    height: 40px;
+}
+
+.cloud-bump {
+    position: absolute;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 45% 35%, #ffffff 0%, #a9cdf5 55%, rgba(169, 205, 245, 0) 100%);
+    background-size: 110px 40px;
+}
+
+.cloud-bump-1 {
+    left: 0px;
+    top: 0px;
+    width: 70px;
+    height: 26px;
+    background-position: 0px 0px;
+}
+
+.cloud-bump-2 {
+    left: 45px;
+    top: 10px;
+    width: 55px;
+    height: 30px;
+    background-position: -45px -10px;
+}
+
+.dragonfly {
+    position: absolute;
+    left: 95px;
+    top: 22px;
+    width: 90px;
+    height: 60px;
+    transform: rotate(-20deg);
+}
+
+.fly-head {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    width: 26px;
+    height: 26px;
+    background: #e0b83a;
+    border-radius: 50%;
+    border: 1px solid #8a6a1a;
+}
+
+.fly-eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.fly-eye-1 {
+    left: 5px;
+    top: 3px;
+}
+
+.fly-eye-2 {
+    left: 8px;
+    top: 14px;
+}
+
+.fly-body {
+    position: absolute;
+    left: 22px;
+    top: 22px;
+    width: 55px;
+    height: 16px;
+    background: #e0b83a;
+    border-radius: 50%;
+    border: 1px solid #8a6a1a;
+}
+
+.wing {
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    background: #7f9bdb;
+    border: 1px solid #4a63a8;
+    border-radius: 50%;
+    transform-origin: 0% 50%;
+}
+
+.wing-1 {
+    left: 52px;
+    top: 11px;
+    transform: rotate(-60deg);
+}
+
+.wing-2 {    
+    left: 55px;
+    top: 11px;
+    transform: rotate(-120deg);
+}
+
+.wing-3 {
+    left: 52px;
+    top: 29px;
+    transform: rotate(60deg);
+}
+
+.wing-4 {
+    left: 55px;
+    top: 29px;
+    transform: rotate(120deg);
+}

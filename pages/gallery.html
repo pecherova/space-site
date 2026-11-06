@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Галерея — Орбита</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Unbounded:wght@600;700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="../index.html" aria-label="Орбита — на главную">
+        <span class="logo__planet"></span>
+        <span class="logo__name">Орбита</span>
+      </a>
+      <input class="header__toggle" type="checkbox" id="menu-toggle">
+      <label class="header__burger" for="menu-toggle" aria-label="Открыть меню"></label>
+      <nav class="header__nav">
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="../index.html">Главная</a></li>
+          <li class="menu__item"><a class="menu__link" href="planets.html">Планеты</a></li>
+          <li class="menu__item"><a class="menu__link menu__link--active" href="gallery.html">Галерея</a></li>
+          <li class="menu__item"><a class="menu__link" href="tasks.html">Задания</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-title">
+        <h1>Галерея</h1>
+        <p class="page-title__lead">Солнце, восемь планет и Луна — по одному факту о каждом.</p>
+      </div>
+      <div class="gallery">
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--sun" role="img" aria-label="Солнце"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Солнце</h2>
+            <p class="gallery__fact">Свет от него доходит до Земли за 8 минут.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--mercury" role="img" aria-label="Меркурий"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Меркурий</h2>
+            <p class="gallery__fact">Год длится всего 88 земных суток.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--venus" role="img" aria-label="Венера"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Венера</h2>
+            <p class="gallery__fact">Самая горячая планета, около 465 °C.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--earth" role="img" aria-label="Земля"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Земля</h2>
+            <p class="gallery__fact">71% поверхности покрыто водой.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--moon" role="img" aria-label="Луна"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Луна</h2>
+            <p class="gallery__fact">Удаляется от Земли на 3,8 см в год.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--mars" role="img" aria-label="Марс"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Марс</h2>
+            <p class="gallery__fact">Здесь находится вулкан Олимп высотой около 22 км.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--jupiter" role="img" aria-label="Юпитер"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Юпитер</h2>
+            <p class="gallery__fact">Тяжелее всех остальных планет вместе взятых.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--saturn" role="img" aria-label="Сатурн"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Сатурн</h2>
+            <p class="gallery__fact">Плотность меньше, чем у воды.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--uranus" role="img" aria-label="Уран"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Уран</h2>
+            <p class="gallery__fact">Вращается, лёжа на боку.</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__image gallery__image--neptune" role="img" aria-label="Нептун"></div>
+          <figcaption class="gallery__caption">
+            <h2 class="gallery__name">Нептун</h2>
+            <p class="gallery__fact">Ветры до 2000 км/ч.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy"></p>
+      <ul class="footer__menu">
+        <li><a class="footer__link" href="../index.html">Главная</a></li>
+        <li><a class="footer__link" href="planets.html">Планеты</a></li>
+        <li><a class="footer__link" href="gallery.html">Галерея</a></li>
+        <li><a class="footer__link" href="tasks.html">Задания</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

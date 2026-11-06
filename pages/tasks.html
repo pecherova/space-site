@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Задания — Орбита</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Unbounded:wght@600;700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="../index.html" aria-label="Орбита — на главную">
+        <span class="logo__planet"></span>
+        <span class="logo__name">Орбита</span>
+      </a>
+      <input class="header__toggle" type="checkbox" id="menu-toggle">
+      <label class="header__burger" for="menu-toggle" aria-label="Открыть меню"></label>
+      <nav class="header__nav">
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="../index.html">Главная</a></li>
+          <li class="menu__item"><a class="menu__link" href="planets.html">Планеты</a></li>
+          <li class="menu__item"><a class="menu__link" href="gallery.html">Галерея</a></li>
+          <li class="menu__item"><a class="menu__link menu__link--active" href="tasks.html">Задания</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-title">
+        <h1>Задания</h1>
+        <p class="page-title__lead">Работы по курсу «Вёрстка и прототипирование сайтов».</p>
+      </div>
+      <ul class="tasks">
+        <li>
+          <a class="tasks__link" href="task-1.html">
+            <span class="tasks__title">Задание 1</span>
+            <span class="tasks__desc">Рисунок средствами CSS</span>
+          </a>
+        </li>
+        <li>
+          <a class="tasks__link" href="task-2.html">
+            <span class="tasks__title">Задание 2</span>
+            <span class="tasks__desc">Ролик на Flexbox</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy"></p>
+      <ul class="footer__menu">
+        <li><a class="footer__link" href="../index.html">Главная</a></li>
+        <li><a class="footer__link" href="planets.html">Планеты</a></li>
+        <li><a class="footer__link" href="gallery.html">Галерея</a></li>
+        <li><a class="footer__link" href="tasks.html">Задания</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
